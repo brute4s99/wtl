@@ -8,7 +8,7 @@
 # the terms of this license. You must not remove this notice, or
 # any other, from this software.
 
-option(BUILD_SAMPLES "Build sample projects" ON)
+option(BUILD_SAMPLES "Build sample projects" OFF)
 
 set(LIBRARY_DIRECTORY Include)
 set(INSTALL_DIRECTORY include)
@@ -50,6 +50,6 @@ install(TARGETS WTL EXPORT WTLConfig)
 
 set(CMAKE_SKIP_INSTALL_ALL_DEPENDENCY ON)
 
-if(BUILD_SAMPLES)
-  add_subdirectory(Samples)
-endif()
+#if(BUILD_SAMPLES)
+#  add_subdirectory(Samples)
+#endif()
