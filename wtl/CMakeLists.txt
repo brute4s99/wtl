@@ -11,7 +11,7 @@
 option(BUILD_SAMPLES "Build sample projects" OFF)
 
 set(LIBRARY_DIRECTORY Include)
-set(INSTALL_DIRECTORY include)
+set(INSTALL_DIRECTORY "include/wtl")
 
 set(LIBRARY_SOURCES
   ${LIBRARY_DIRECTORY}/atlapp.h
